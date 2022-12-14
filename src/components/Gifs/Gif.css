@@ -1,0 +1,43 @@
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+.app-component {
+  text-align: center;
+}
+.app-component a {
+  color: #eee;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.Gif {
+  border-radius: 6px;
+  text-align: center;
+  color: #eee;
+}
+.gif-link{
+  color: #000;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+}
+.loading {
+  font-size: 40px;
+  color: #eee;
+}
+.listOfGifs{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0 16px;
+  align-items: center;
+  min-height: 100vh;
+}
+.listOfGifs-item{
+  background-color: #eee;
+  display: inline-block;
+  width: 100%;
+}
